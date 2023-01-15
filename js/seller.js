@@ -2,6 +2,7 @@ $(function() {
     activeMenu();
 
     status_menu_markup();
+    $('#summernote').summernote();
 });
 
 function activeMenu() {
@@ -34,4 +35,11 @@ function cancellation_payment_details() {
 function menu() {
     $('.span_market').addClass("d-none");
     $('.menu_seller').addClass("my-2")
+}
+
+function parametr_product() {
+    $(".span_cr_red_product").removeClass("opacity-25").addClass(" opacity-25");
+    $(this).removeClass("opacity-25");
+    $(".update-product").removeClass("d-none").addClass("d-none");
+    $("."+$(this).attr('data-block')).removeClass("d-none");
 }

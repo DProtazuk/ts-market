@@ -36,7 +36,7 @@
                 </li>
 
                 <li class="menu-item mt-1">
-                    <a href="#" class="text-decoration-none menu_seller">
+                    <a href="/view/seller/my_shop.php" class="text-decoration-none menu_seller menu_seller_my_shop">
                             <span class="menu-icon">
                             <svg width="15" height="12" viewBox="0 0 15 12" fill="" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -53,7 +53,7 @@
                 </li>
 
                 <li class="menu-item mt-1">
-                    <a href="#" class="text-decoration-none menu_seller">
+                    <a href="/view/seller/products.php" class="text-decoration-none menu_seller menu_seller_products">
                             <span class="menu-icon">
                              <svg width="15" height="13" viewBox="0 0 15 13" fill="" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.60156 0C3.60156 0 4.98983 0 5.97148 0.872578C5.97148 0.872578 6.95312 1.74516 6.95312 2.97917C6.95312 2.97917 6.95312 4.21318 5.97147 5.08576C5.97147 5.08576 4.98982 5.95833 3.60156 5.95833C3.60156 5.95833 2.2133 5.95833 1.23165 5.08576C1.23165 5.08576 0.25 4.21318 0.25 2.97917C0.25 2.97917 0.25 1.74516 1.23165 0.872578C1.23165 0.872578 2.2133 0 3.60156 0ZM3.60156 1.08333C3.60156 1.08333 2.71812 1.08333 2.09344 1.63861C2.09344 1.63861 1.46875 2.19389 1.46875 2.97917C1.46875 2.97917 1.46875 3.76445 2.09344 4.31972C2.09344 4.31972 2.71812 4.875 3.60156 4.875C3.60156 4.875 4.485 4.875 5.10969 4.31972C5.10969 4.31972 5.73438 3.76445 5.73438 2.97917C5.73438 2.97917 5.73438 2.19389 5.10969 1.63861C5.10969 1.63861 4.485 1.08333 3.60156 1.08333Z" fill-opacity="0.85"/>

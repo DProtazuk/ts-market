@@ -65,7 +65,7 @@
                             </div>
 
                             <div class="dropdown">
-                        <span class="lh-1 text-white fs-6 fw-bolder cursor" id="dropdownMenuButton1"
+                            <span class="lh-1 text-white fs-6 fw-bolder cursor" id="dropdownMenuButton1"
                               data-bs-toggle="dropdown" aria-expanded="false">&bull;&bull;&bull;</span>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                                     <li><a class="dropdown-item active" href="#">Выручка за неделю</a></li>
@@ -101,7 +101,7 @@
 
                         <div class="d-flex my-4">
                             <h6 class="text-white ">Впишите сумму</h6>
-                            <input type="number" class="text-white mx-5 input-price-seller px-3">
+                            <input type="number" class="text-white border-0 mx-5 input-price-seller px-3">
                         </div>
 
                         <button class="btn btn-bg-seller my-3 px-3 text-white">оформить</button>
@@ -115,9 +115,9 @@
                             <span class="mx-3 text-secondary">|</span>
                             <span>Даты</span>
 
-                            <input value="2023-01-01" type="date" class="fw-bolder text-white mx-3 input-price-seller px-2">
+                            <input value="2023-01-01" type="date" class="fw-bolder border-0 text-white mx-3 input-price-seller px-2">
 
-                            <input value="2023-01-10" type="date" class="text-white mx-3 input-price-seller px-2">
+                            <input value="2023-01-10" type="date" class="text-white border-0 mx-3 input-price-seller px-2">
                         </div>
 
                         <div class="dropdown">
@@ -140,37 +140,27 @@
                         </tr>
 
                         <tr class="text-white">
-                            <td class="col-1 lh-lg">64587</td>
-                            <td class="col-2 lh-lg">12.12.2022</td>
-                            <td class="col-5">USDT 666vh654gcjtrhhc64cfhkjghjhvf65fhgvyt677877thjb</td>
-                            <td class="col-2 text-center">$123 930</td>
-                            <td class="col-2 text-center">
-                                <div class="col-8 m-auto status_in_waiting my-2">в ожидании</div>
-                                <!--                        <div class="col-8 m-auto status_executed my-2">исполнено</div>-->
-                            </td>
-                        </tr>
-
-                        <tr class="text-white">
                             <td class="col-1 lh-lg">196874</td>
                             <td class="col-2 lh-lg">12.12.2022</td>
                             <td class="col-5">USDT 666vh654gcjtrhhc64cfhkjghjhvf65fhgvyt677877thjb</td>
                             <td class="col-2 text-center">$123 930</td>
                             <td class="col-2 text-center">
-                                <!--                        <div class="col-8 m-auto status_in_waiting my-2">в ожидании</div>-->
-                                <div class="col-8 m-auto status_executed my-2">исполнено</div>
-                            </td>
-                        </tr>
-
-                        <tr class="text-white">
-                            <td class="col-1 lh-lg">196874</td>
-                            <td class="col-2 lh-lg">12.12.2022</td>
-                            <td class="col-5">USDT 666vh654gcjtrhhc64cfhkjghjhvf65fhgvyt677877thjb</td>
-                            <td class="col-2 text-center">$123 930</td>
-                            <td class="col-2 text-center">
-                                <!--                        <div class="col-8 m-auto status_in_waiting my-2">в ожидании</div>-->
-                                <div class="col-8 m-auto status_Competed d-flex justify-content-center align-items-center  my-2">
-                                    <div class="elipse_status_Competed p-1 mx-1"></div>
+                                <div class="col-7 m-auto status_Competed d-flex  align-items-center  my-2">
+                                    <div class="elipse_status_Competed p-1 mx-2"></div>
                                     <span>Competed</span>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="text-white">
+                            <td class="col-1 lh-lg">196874</td>
+                            <td class="col-2 lh-lg">12.12.2022</td>
+                            <td class="col-5">USDT 666vh654gcjtrhhc64cfhkjghjhvf65fhgvyt677877thjb</td>
+                            <td class="col-2 text-center">$123 930</td>
+                            <td class="col-2 text-center">
+                                <div class="col-7 m-auto status_In_Progress d-flex align-items-center  my-2">
+                                    <div class="elipse_status_In_Progress p-1 mx-2"></div>
+                                    <span>In Progress</span>
                                 </div>
                             </td>
                         </tr>

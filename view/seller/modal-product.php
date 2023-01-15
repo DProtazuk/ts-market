@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" >
-
-<head>
-    <meta charset="UTF-8">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/link/link-seller.php"); ?>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/link/link-markup.php"); ?>
-    <title>CodePen - Pro Sidebar template</title>
-</head>
-<input type="hidden" class="keyMenu" value="menu_seller_dashboard">
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#delete_product">
-    удалить
-</button>
-
 <!-- Modal -->
 <div class="modal fade" id="delete_product" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -57,12 +41,6 @@
     </div>
 </div>
 
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#copy_product">
-    Копия
-</button>
-
 <!-- Modal -->
 <div class="modal fade" id="copy_product" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -105,12 +83,6 @@
         </div>
     </div>
 </div>
-
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upload_product">
-    Догрузить
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="upload_product" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -158,8 +130,3 @@
         </div>
     </div>
 </div>
-
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/layout/markup/murkup-js.php"); ?>
-
-</html>
-
